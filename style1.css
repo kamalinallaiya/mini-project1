@@ -1,0 +1,34 @@
+body{
+    background-image: url(./bootstrap/bac.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+.start{ 
+    padding: 70px;
+}
+    .full{
+        border: 2px solid  rgba(224, 238, 100, 0.4);
+        margin-top: 10ex;
+        width: 750px;
+        height: 450px;
+        background-color: rgba(224, 238, 100, 0.4);
+    }
+    li{
+        padding: 10px;
+    }
+    input{
+        padding: 10px;
+        width: 300px;
+        border-radius: 55px;
+        background-color:  rgba(162, 154, 165,0.4);
+        color:white;
+        border: 2px solid  rgba(224, 238, 100, 0.4) ;
+    }
+    button{
+        margin-top: 28px;
+        border-radius: 55px;
+        padding: 8px;
+        width: 120px;
+        background-color:yellow;
+    }

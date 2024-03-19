@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/js/jquary.min.js">
+    <link rel="stylesheet" href="./bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="containr"><center>
+        <div class="full">
+            <div class="container-fluid first">
+              <center>
+              <img src="./bootstrap/download__1_-removebg-preview.png" alt="">
+              <h5 style="color: rgb(206, 107, 127); font-family:cursive;">ART GALLERY</h5>
+            
+              </center>
+            </div>
+            <div class="container start">
+                <center><ul class="list-unstyled">
+                 <li><input type="text" required id="email" placeholder="Enter your name"></li>
+                  <li><input type="password" required id="password" placeholder="Enter password"></li>
+                  <li><button type="submit" id="submit" onclick="main()">submit</button></li>
+                </ul></center>
+            </div>
+        </div></center>
+    </div>
+     <script>
+        function main()
+        {
+            var email=document.getElementById("email").value;
+            var pass= document.getElementById("password").value;
+            if (pass=="45678" ) {
+                window.location.assign("home.html")
+                alert("success full ! ")
+            } else {
+                window.location.assign("index.html")
+                alert("------wrong entry------ ")            }
+                }</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(158, 158, 228)
+}
+.container{
+    border: 2px solid rgb(30, 79, 122)
+
+}
+.bg{
+    border: 1px solid rgb(30, 79, 122);
+    color: aliceblue;
+}
+img{
+    width: 100px;
+}
+.pa{
+    margin-top: 25px;
+}
+.colo{
+    padding: 25px;
+    
+}
+.button{
+    margin-left: 15px;
+}

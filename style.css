@@ -1,0 +1,30 @@
+body{
+    background-image: url(./bootstrap/bac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}   
+div.entey{
+    padding: 70px;
+}
+
+.first{
+    padding: 11px;
+}
+button{
+   width: 149px;
+   height: 45px;
+   border-radius: 55px;
+   border: 2px solid  rgba(224, 238, 100, 0.4);
+   background-color: rgba(162, 154, 165,0.4);
+   color: rgb(248, 132, 155);
+
+}
+.full{
+    border: 2px solid  rgba(224, 238, 100, 0.4);
+    margin-top: 10ex;
+    width: 750px;
+    height: 450px;
+    background-color: rgba(224, 238, 100, 0.4);
+}
